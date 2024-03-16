@@ -1,0 +1,39 @@
+*{
+    font-family: Poppins;
+    color: #e6e6e6e3;
+}
+
+body{
+    background-color: rgba(1, 1, 0, 0.903);
+}
+
+#cv-form{
+    /* display: none; */
+}
+
+#cv-template{
+        display: none;
+
+}
+.myimg{
+    border: 6px solid rgba(230, 230, 230, 0.89);
+    border-radius: 50%;
+    width: 150px;
+}
+
+.background{
+    background-color: #2A334F;
+}
+
+.card{
+    background-color: rgba(1, 1, 0, 0.616);
+}
+
+.card h3{
+    color:rgba(230, 230, 230, 0.89) ;
+}
+
+.container .btn {
+    color:rgba(230, 230, 230, 0.89) ;
+}
+
