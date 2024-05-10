@@ -1,0 +1,41 @@
+1. **Start**
+2. Include necessary libraries (`iostream`, `fstream`, `map`)
+3. Define function prototypes:
+    - AddStudent
+    - DeleteStudent
+    - DisplayStudent
+    - ReadDataFromFile
+    - SaveDataToFile
+4. **Main Function:**
+    1. Declare constant `filename` for the student data file
+    2. Declare `map` to store student information
+    3. Call `ReadDataFromFile` to load data from file into the map
+    4. **Repeat Until Exit:**
+        - Display menu options:
+            - Add a student
+            - Delete a student
+            - Display student information
+            - Save data to file
+            - Exit
+        - Prompt user for choice
+        - **Switch** on user's choice:
+            - **Case 1:** Add a student:
+                1. Prompt user for roll, name, division, address
+                2. Call `AddStudent` function
+            - **Case 2:** Delete a student:
+                1. Prompt user for roll to delete
+                2. Call `DeleteStudent` function
+            - **Case 3:** Display student information:
+                1. Prompt user for roll to display
+                2. Call `DisplayStudent` function
+            - **Case 4:** Save data to file:
+                - Call `SaveDataToFile` function
+                - Print "Data saved to file successfully"
+            - **Case 5:** Exit:
+                - Call `SaveDataToFile` function
+                - Print "Exiting..."
+                - **End Repeat Loop**
+            - **Default:** Invalid choice:
+                - Print "Invalid choice. Please enter again."
+    5. **End Repeat Loop**
+5. **End**
